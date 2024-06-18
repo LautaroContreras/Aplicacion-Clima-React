@@ -1,0 +1,190 @@
+/* Estilos generales */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: skyblue
+  } */
+  
+/*   .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   */
+/*   h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+   */
+ /*  form {
+    display: flex;
+    margin-bottom: 20px;
+  } */
+  
+ /*  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  } */
+  
+ /*  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+  
+ /*  button:hover {
+    background-color: #0056b3;
+  } */
+  
+/*   h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+   */
+ /*  p {
+    margin-bottom: 5px;
+  } */
+  
+/*   img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  } */
+  
+  /* Estilos para móviles */
+/*   @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  } */
+
+  /* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #87CEEB; /* Un color azul cielo más suave */
+  color: #333; /* Un color de texto más oscuro para mejor legibilidad */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Fondo blanco para el contenedor principal */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para el contenedor */
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff; /* Color principal */
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; /* Bordes redondeados en la izquierda */
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0; /* Bordes redondeados en la derecha */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 10px; /* Espaciado uniforme entre párrafos */
+  font-size: 16px; /* Tamaño de fuente un poco más grande */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 22px;
+  }
+
+  input[type="text"] {
+      font-size: 14px;
+  }
+
+  button {
+      padding: 8px 16px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+
+  img {
+      width: 80px;
+      height: 80px;
+  }
+}
+
+  
